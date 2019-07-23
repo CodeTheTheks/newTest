@@ -1,0 +1,20 @@
+package JavaProjectNew;
+
+import java.io.IOException;
+import java.util.Properties;
+
+import org.openqa.selenium.WebDriver;
+
+public Properties 
+
+public class base {
+	public WebDriver initializeDriver() throws IOException {
+		return null;
+		
+		prop = new Properties();
+		
+		
+		
+	}
+
+}

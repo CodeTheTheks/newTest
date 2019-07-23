@@ -1,0 +1,28 @@
+package JavaProjectNew;
+
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.util.Properties;
+
+import org.openqa.selenium.WebDriver;
+
+
+
+
+public class base {
+	
+	public Properties prop;
+	
+	public WebDriver initializeDriver() throws IOException {
+		return null;
+		prop = new Properties();
+		FileInputStream fis = new FileInputStream("C:\\Users\\CAI-INDIA\\NewFrameWork\\src\\main\\java\\JavaProjectNew\\data.properties");
+		prop.load(fis);
+		
+		
+		
+		
+		
+	}
+
+}
